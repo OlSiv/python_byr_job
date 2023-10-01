@@ -8,6 +8,7 @@ class SpaceAgeTest(unittest.TestCase):
 	def test_age_on_earth(self):
 		self.assertEqual(SpaceAge(1000000000).on_earth(), 31.69)
 		
+
 	def test_age_on_mercury(self):
 		self.assertEqual(SpaceAge(2134835688).on_mercury(), 280.88)
 
@@ -28,3 +29,4 @@ class SpaceAgeTest(unittest.TestCase):
 
 	def test_age_on_neptune(self):
 		self.assertEqual(SpaceAge(1821023456).on_neptune(), 0.35)
+
