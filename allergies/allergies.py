@@ -5,7 +5,7 @@ class Allergies:
 
     def allergic_to(self, item):
         self.item = item 
-        list_res = Allergies(self.score).lst
+        list_res = self.lst
         return self.item in list_res
 
     @property
@@ -40,17 +40,3 @@ class Allergies:
                 ch +=1
 
         return(sp)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
